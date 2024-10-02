@@ -1,0 +1,64 @@
+/* 網頁整體樣式 */
+html, body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Banner 樣式 */
+.banner {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+/* Navigator 樣式 */
+.navigator {
+    background-color: #333;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navigator ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navigator li {
+    margin: 0 20px;
+}
+
+.navigator a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+}
+
+.navigator a:hover {
+    background-color: #575757;
+}
+
+/* 區段 Banner 樣式 */
+.section-banner {
+    background-color: #2196F3;
+    color: white;
+    text-align: center;
+    padding: 200px 0; /* 上下padding 200px */
+}
+
+/* 區段內容樣式 */
+.section-content {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-bottom: 1000px; /* 下方留1000px的空白 */
+}
